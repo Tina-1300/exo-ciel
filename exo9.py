@@ -1,4 +1,11 @@
-notes = [12, 15, 10, 17, 4, 2]
+
+notes = []
+
+for i in range(1, 7):
+    user_notes = float(input(f"Entrez note n°{i} : "))
+    notes.append(user_notes)
+
+#notes = [12, 15, 10, 17, 4, 2]
 
 # Calcul de la moyenne
 
