@@ -1,6 +1,9 @@
 from math import pi
 
-rayon:int = 14
+
+user_rayon = float(input("Entrez vôtre rayon : "))
+
+rayon = user_rayon
 
 def volume_sphere(rayon=rayon) -> float:
     return (4*pi/3)* rayon**3
