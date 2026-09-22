@@ -1,3 +1,4 @@
+# exercices 10
 import random
 
 
