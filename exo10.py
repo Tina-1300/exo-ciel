@@ -1,6 +1,6 @@
 
 
-user = int(input("Entrer vôtre nombnre : "))
+user = int(input("Entrer vôtre nombre : "))
 
 def check(num) -> str:
     if num % 2 == 0:
